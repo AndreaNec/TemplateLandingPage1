@@ -1,0 +1,75 @@
+/*text*/
+h2{
+    font-weight: 400;
+    font-family: "Oswald";
+}
+
+h1{
+    font-weight: 600;
+    font-style: none;
+    font-family: "Oswald";
+}
+
+p{
+    font-family: 'Cardo', serif;
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 32px;
+
+    overflow-y: hidden;
+}
+
+/*Fascinations*/
+
+.fascinations{
+    height: 78vh;
+}
+
+.fascinations h1{
+    font-weight: 700;
+    font-size: 12vw;
+    /* identical to box height */
+    line-height: 12vw;
+
+
+    text-align: center;
+
+    overflow-y: hidden;
+
+    color: #474747;
+}
+
+/*2nd section*/
+
+.mainDiv{
+}
+
+.design{
+
+    height: 80vh;
+    background: rgba(217, 217, 217, 0.9);
+
+    align-items: flex-end;
+}
+
+.design h1{
+    overflow-y: hidden;
+    font-size: 96px;
+}
+
+.textB{
+    text-align: right;
+}
+
+.textC{
+    margin-bottom: 20vh;
+}
+
+.titleA{
+    font-size: 128px;
+    overflow-y: hidden;
+}
+
+

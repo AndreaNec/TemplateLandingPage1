@@ -1,0 +1,141 @@
+h2{
+    font-weight: 400;
+    font-family: "Oswald";
+}
+
+h1{
+    font-weight: 600;
+    font-style: none;
+    font-family: "Oswald";
+}
+
+.FAQtitle{
+    width: 55vw;
+    font-size: 64px;
+    margin-bottom: 1em;
+    font-family: "Oswald";
+
+    overflow: hidden;
+}
+
+.FAQsection{
+    width: 60vw;
+
+    overflow: hidden;
+    position: initial;
+    z-index: 100;
+}
+
+
+.FAQelement{
+
+}
+
+.FAQelement::before{
+    content: "";
+
+    width: 36px;
+    height: 5px;
+
+    position: absolute;
+
+    margin-top: 3.5em;
+    margin-right: 20em;
+
+    margin-left: -2em;
+
+    background-color: #585858;
+
+
+
+}
+
+.FAQelement h1{
+    font-size: 40px;
+
+    padding: 1rem;
+
+    transition: 400ms;
+
+    font-family: "Oswald";
+}
+
+.FAQelement p{
+    padding: 1rem;
+
+    font-family: 'Cardo', serif;
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.FAQelement .separate-line{
+    color: #0000;
+    width: 790px;
+
+    transition: 800ms;
+
+    border: 1px solid black;
+}
+
+.question-item{
+    max-height: 5.8em;
+    overflow-y: hidden;
+
+    margin: 1em;
+    margin-left: 0em;
+
+    width: 50vw;
+
+    transition: 500ms;
+}
+
+.question-item p{
+
+    line-height: 1.8em;
+}
+
+
+#question02{
+    max-height: 8.4em;
+}
+a:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+/* open question*/
+
+#question01:target{
+    max-height: 30em;
+
+    transition: 500ms;
+}
+
+#question02:target{
+    max-height: 20em;
+
+    transition: 500ms;
+}
+
+#question03:target{
+    max-height: 20em;
+
+    transition: 500ms;
+}
+
+/* question hover animation*/
+
+.question-item:hover h1{
+    font-size: 48px;
+
+    transition: 400ms;
+}
+
+.question-item:hover hr{
+    width: 1157px;
+
+    transition: 800ms;
+}

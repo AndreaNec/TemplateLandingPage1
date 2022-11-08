@@ -1,0 +1,94 @@
+.left-lineBox{
+    position: initial;
+    z-index: 2;
+}
+
+
+/*text*/
+h2{
+    font-weight: 400;
+    font-family: "Oswald";
+}
+
+h1{
+    font-weight: 600;
+    font-style: none;
+    font-family: "Oswald";
+    
+}
+
+
+/* center img */
+
+.mainImg{
+    width: 30vw;
+    height: auto
+
+
+}
+
+
+@keyframes maskAnimation {
+    0%{
+        top: 50%;
+    }
+
+    50%{
+        top:65%
+    }
+
+    100%{
+        top: 50%;
+    }
+}
+
+.component{
+    top: 50%;
+    position: absolute;
+    width: 30vw;
+
+    z-index: 5;
+
+    animation: maskAnimation 8s infinite;
+    animation-delay: 1.2s;
+    animation-timing-function: ease-in;
+}
+
+
+
+/*DECORAZIONI*/
+
+.logo{
+    position: absolute;
+    width: 377px;
+    height: 377px;
+    left: -61px;
+    top: -83px;
+
+}
+
+.collectionName{
+    position: absolute;
+    width: 80vw;
+    height: auto;
+    left: -5%;
+    top: 75.4%;
+
+    
+
+    /* identical to box height */
+
+
+
+}
+
+.collectionName h1{
+    font-weight: 700;
+    font-size: 230px;
+    color: #D5D0C5;
+    line-height: 230px;
+
+    overflow-y: hidden;
+
+    opacity: 0.2;
+}

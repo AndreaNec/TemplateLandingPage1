@@ -1,0 +1,220 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+
+    scroll-behavior: smooth;
+
+
+}
+
+html{
+    box-sizing: border-box;
+}
+
+
+
+section{
+    height: 100vh;
+    width: 100vw;
+    background-color: #FEF9F1;
+    overflow-y: hidden;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.gap1{
+    gap: 5em;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.flex-start{
+    justify-content: flex-start;
+}
+
+.align-start{
+    align-items: flex-start;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.warp{
+    flex-wrap: wrap;
+}
+
+.z3{
+    position: initial;
+    z-index: 3;
+}
+
+/*NAVBAR*/
+a{
+    font-style: normal;
+    text-decoration: none;
+
+    color: #000000;
+}
+
+a:hover{
+    font-style: normal;
+    text-decoration: none;
+
+    color: #000000;
+}
+
+/* navabar */
+
+
+nav{
+    top: 2%;
+    width: 100%;
+    position: fixed;
+
+    display: flex;
+    position: fixed;
+    justify-content: center;
+
+    z-index: 100;
+
+    
+}
+
+nav ul{
+    width: 50%;
+}
+
+nav h1{
+    font-size: calc(1.2vw + 12px);
+    font-family: "Oswald";
+    font-weight: 300;
+    text-align: center;
+
+
+    overflow-y: hidden;
+
+
+    
+}
+
+nav hr{
+    border: 1px solid #000000;
+    width: 0px;
+
+    align-self: center;
+    transition: 300ms;
+}
+
+nav li:hover hr{
+    width: 100%;
+    transition: 300ms;
+}
+
+/*LINES*/
+
+.line{
+    position: fixed;
+    width: 1100px;
+    height: 1080px;
+
+    top: 0px;
+
+    transform: rotate(-90deg);
+
+}
+
+.line h1,h2{
+    overflow-y: hidden;
+    margin-left: 6em;
+
+    transition: 300ms;
+}
+
+.line hr{
+    width: 500%;
+
+    border: 1px solid #000000;
+}
+
+.left-line{
+    left: 85%;
+}
+
+.right-line h1{
+    margin-left: 9em;
+}
+
+.right-line{
+    left: 10%;
+}
+
+/*Lines Animations*/
+
+
+.right-lineBox:hover h1{
+    margin-left: 8em;
+
+    transition: 300ms;
+}
+
+.right-lineBox:hover h2{
+    margin-left: 7em;
+
+    transition: 300ms;
+}
+
+.left-lineBox:hover h1{
+    margin-left: 5em;
+
+    transition: 300ms;
+}
+
+.left-lineBox:hover h2{
+    margin-left: 7em;
+
+    transition: 300ms;
+}
+
+.left-lineBox{
+    position: initial;
+    z-index: 2;
+}
+
+.right-lineBox{
+    position: initial;
+    z-index: 10;
+}
+/*mainDiv*/
+
+.mainDiv{
+    width: 60vw;
+
+    position: initial;
+    z-index: 40;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .column-mobile {
+        flex-direction: column;
+    }
+  }
